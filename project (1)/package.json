@@ -30,5 +30,10 @@
     "postcss": "^8.5",
     "tailwindcss": "^4.3.3",
     "typescript": "5.7.3"
-  }
+  },
+  "scripts": {
+  "dev": "next dev --webpack --hostname 0.0.0.0",
+  "build": "next build --webpack",
+  "start": "next start --hostname 0.0.0.0"
+}
 }
